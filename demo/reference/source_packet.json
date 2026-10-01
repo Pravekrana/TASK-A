@@ -1,0 +1,200 @@
+[
+  {
+    "sample_id": 1,
+    "case_key": "order:DEMO-O1",
+    "stratum": "synthetic",
+    "primary_ticket_id": "DEMO-T1",
+    "tickets": [
+      {
+        "ticket_id": "DEMO-T1",
+        "created_at": "2026-06-01 09:00",
+        "first_response_at": "2026-06-01 09:10",
+        "resolved_at": "2026-06-01 11:00",
+        "status": "resolved",
+        "channel": "email",
+        "customer_id": "DEMO-C1",
+        "order_id": "DEMO-O1",
+        "product_sku": "DEMO-SKU",
+        "category": "Other",
+        "priority": "Normal",
+        "assigned_team": "Email Frontline",
+        "agent_id": "DEMO-A",
+        "transfers": "1",
+        "csat_score": "4",
+        "refund_amount_inr": "1000",
+        "refund_reason_code": "GW-OTHER",
+        "replacement_issued": "Y",
+        "customer_message": "Synthetic example: item stopped working. Please help.",
+        "agent_notes": "Refund issued; replacement dispatched as goodwill.",
+        "source_system": "helpdesk",
+        "linked_order_id": "DEMO-O1",
+        "refund_minor": "100000"
+      }
+    ]
+  },
+  {
+    "sample_id": 2,
+    "case_key": "order:DEMO-O2",
+    "stratum": "synthetic",
+    "primary_ticket_id": "DEMO-T2",
+    "tickets": [
+      {
+        "ticket_id": "DEMO-T2",
+        "created_at": "2026-06-02 09:00",
+        "first_response_at": "2026-06-02 09:10",
+        "resolved_at": "2026-06-02 11:00",
+        "status": "resolved",
+        "channel": "email",
+        "customer_id": "DEMO-C2",
+        "order_id": "DEMO-O2",
+        "product_sku": "DEMO-SKU",
+        "category": "Other",
+        "priority": "Normal",
+        "assigned_team": "Email Frontline",
+        "agent_id": "DEMO-A",
+        "transfers": "1",
+        "csat_score": "",
+        "refund_amount_inr": "1000",
+        "refund_reason_code": "GW-OTHER",
+        "replacement_issued": "N",
+        "customer_message": "Synthetic example: item stopped working. Please help.",
+        "agent_notes": "Replacement was offered, customer chose refund.",
+        "source_system": "helpdesk",
+        "linked_order_id": "DEMO-O2",
+        "refund_minor": "100000"
+      }
+    ]
+  },
+  {
+    "sample_id": 3,
+    "case_key": "order:DEMO-O3",
+    "stratum": "synthetic",
+    "primary_ticket_id": "DEMO-T3",
+    "tickets": [
+      {
+        "ticket_id": "DEMO-T3",
+        "created_at": "2026-06-03 09:00",
+        "first_response_at": "2026-06-03 09:10",
+        "resolved_at": "2026-06-03 11:00",
+        "status": "resolved",
+        "channel": "email",
+        "customer_id": "DEMO-C3",
+        "order_id": "DEMO-O3",
+        "product_sku": "DEMO-SKU",
+        "category": "Other",
+        "priority": "Normal",
+        "assigned_team": "Email Frontline",
+        "agent_id": "DEMO-A",
+        "transfers": "1",
+        "csat_score": "4",
+        "refund_amount_inr": "1000",
+        "refund_reason_code": "GW-OTHER",
+        "replacement_issued": "Y",
+        "customer_message": "Synthetic example: item stopped working. Please help.",
+        "agent_notes": "Replacement not sent. Refund issued.",
+        "source_system": "helpdesk",
+        "linked_order_id": "DEMO-O3",
+        "refund_minor": "100000"
+      }
+    ]
+  },
+  {
+    "sample_id": 4,
+    "case_key": "order:DEMO-O4",
+    "stratum": "synthetic",
+    "primary_ticket_id": "DEMO-T4",
+    "tickets": [
+      {
+        "ticket_id": "DEMO-T4",
+        "created_at": "2026-06-04 09:00",
+        "first_response_at": "2026-06-04 09:10",
+        "resolved_at": "2026-06-04 11:00",
+        "status": "resolved",
+        "channel": "email",
+        "customer_id": "DEMO-C4",
+        "order_id": "DEMO-O4",
+        "product_sku": "DEMO-SKU",
+        "category": "Other",
+        "priority": "Normal",
+        "assigned_team": "Email Frontline",
+        "agent_id": "DEMO-A",
+        "transfers": "1",
+        "csat_score": "",
+        "refund_amount_inr": "1000",
+        "refund_reason_code": "GW-OTHER",
+        "replacement_issued": "Y",
+        "customer_message": "Synthetic example: item stopped working. Please help.",
+        "agent_notes": "Replacement raised; waiting for dispatch.",
+        "source_system": "helpdesk",
+        "linked_order_id": "DEMO-O4",
+        "refund_minor": "100000"
+      }
+    ]
+  },
+  {
+    "sample_id": 5,
+    "case_key": "order:DEMO-O5",
+    "stratum": "synthetic",
+    "primary_ticket_id": "DEMO-T5",
+    "tickets": [
+      {
+        "ticket_id": "DEMO-T5",
+        "created_at": "2026-06-05 09:00",
+        "first_response_at": "2026-06-05 09:10",
+        "resolved_at": "2026-06-05 11:00",
+        "status": "resolved",
+        "channel": "email",
+        "customer_id": "DEMO-C5",
+        "order_id": "DEMO-O5",
+        "product_sku": "DEMO-SKU",
+        "category": "Other",
+        "priority": "Normal",
+        "assigned_team": "Email Frontline",
+        "agent_id": "DEMO-A",
+        "transfers": "1",
+        "csat_score": "4",
+        "refund_amount_inr": "",
+        "refund_reason_code": "",
+        "replacement_issued": "Y",
+        "customer_message": "Synthetic example: item stopped working. Please help.",
+        "agent_notes": "New unit shipped under DOA.",
+        "source_system": "helpdesk",
+        "linked_order_id": "DEMO-O5",
+        "refund_minor": "0"
+      }
+    ]
+  },
+  {
+    "sample_id": 6,
+    "case_key": "order:DEMO-O6",
+    "stratum": "synthetic",
+    "primary_ticket_id": "DEMO-T6",
+    "tickets": [
+      {
+        "ticket_id": "DEMO-T6",
+        "created_at": "2026-06-30 09:00",
+        "first_response_at": "2026-06-30 09:10",
+        "resolved_at": "2026-06-30 11:00",
+        "status": "resolved",
+        "channel": "email",
+        "customer_id": "DEMO-C6",
+        "order_id": "DEMO-O6",
+        "product_sku": "DEMO-SKU",
+        "category": "Other",
+        "priority": "Normal",
+        "assigned_team": "Email Frontline",
+        "agent_id": "DEMO-A",
+        "transfers": "1",
+        "csat_score": "",
+        "refund_amount_inr": "",
+        "refund_reason_code": "",
+        "replacement_issued": "N",
+        "customer_message": "Synthetic example: item stopped working. Please help.",
+        "agent_notes": "No refund; resolved with instructions.",
+        "source_system": "helpdesk",
+        "linked_order_id": "DEMO-O6",
+        "refund_minor": "0"
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "sample_id": 1,
+    "case_key": "order:DEMO-O1",
+    "stratum": "synthetic",
+    "reason": "product_fault",
+    "duplicate_compensation_evidence": true,
+    "evidence": [
+      {
+        "ticket_id": "DEMO-T1",
+        "field": "customer_message",
+        "quote": "item stopped working"
+      }
+    ],
+    "uncertainty": "Synthetic fixture, not a real case or accuracy sample."
+  },
+  {
+    "sample_id": 2,
+    "case_key": "order:DEMO-O2",
+    "stratum": "synthetic",
+    "reason": "product_fault",
+    "duplicate_compensation_evidence": false,
+    "evidence": [
+      {
+        "ticket_id": "DEMO-T2",
+        "field": "customer_message",
+        "quote": "item stopped working"
+      }
+    ],
+    "uncertainty": "Synthetic fixture, not a real case or accuracy sample."
+  },
+  {
+    "sample_id": 3,
+    "case_key": "order:DEMO-O3",
+    "stratum": "synthetic",
+    "reason": "product_fault",
+    "duplicate_compensation_evidence": false,
+    "evidence": [
+      {
+        "ticket_id": "DEMO-T3",
+        "field": "customer_message",
+        "quote": "item stopped working"
+      }
+    ],
+    "uncertainty": "Synthetic fixture, not a real case or accuracy sample."
+  },
+  {
+    "sample_id": 4,
+    "case_key": "order:DEMO-O4",
+    "stratum": "synthetic",
+    "reason": "product_fault",
+    "duplicate_compensation_evidence": false,
+    "evidence": [
+      {
+        "ticket_id": "DEMO-T4",
+        "field": "customer_message",
+        "quote": "item stopped working"
+      }
+    ],
+    "uncertainty": "Synthetic fixture, not a real case or accuracy sample."
+  },
+  {
+    "sample_id": 5,
+    "case_key": "order:DEMO-O5",
+    "stratum": "synthetic",
+    "reason": "product_fault",
+    "duplicate_compensation_evidence": false,
+    "evidence": [
+      {
+        "ticket_id": "DEMO-T5",
+        "field": "customer_message",
+        "quote": "item stopped working"
+      }
+    ],
+    "uncertainty": "Synthetic fixture, not a real case or accuracy sample."
+  },
+  {
+    "sample_id": 6,
+    "case_key": "order:DEMO-O6",
+    "stratum": "synthetic",
+    "reason": "product_fault",
+    "duplicate_compensation_evidence": false,
+    "evidence": [
+      {
+        "ticket_id": "DEMO-T6",
+        "field": "customer_message",
+        "quote": "item stopped working"
+      }
+    ],
+    "uncertainty": "Synthetic fixture, not a real case or accuracy sample."
+  }
+]

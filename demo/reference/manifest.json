@@ -1,0 +1,7 @@
+{
+  "labeler": "Synthetic fixture author",
+  "population": "Six deliberately authored synthetic demo orders; no population inference",
+  "eligible_groups": 6,
+  "seed": null,
+  "detector_sha256": "b9e068a454032113b6b27060d98ea7ac685760010888c03bd564efecf7ea85d9"
+}
